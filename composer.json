@@ -1,0 +1,36 @@
+{
+    "name": "uz/yii2-momentjs",
+    "description": "MomentJS asset for Yii2",
+    "keywords": [
+        "yii",
+        "yii2",
+        "moment",
+        "momentjs"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/mronx/yii2-momentjs",
+    "authors": [
+        {
+            "name": "Mronx",
+            "email": "info@av.uz",
+            "homepage": "https://github.com/mronx",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2",
+        "bower-asset/moment": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "uz\\momentjs\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
