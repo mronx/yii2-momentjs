@@ -86,7 +86,7 @@ class MomentJsLocaleAsset extends AssetBundle
 
         if (!file_exists($localeFilePath)) {
             if($this->locale == 'en'){
-                $localeFile = substr(strtolower($this->locale-'gb'), 0, 5) . '.js';
+                $localeFile = substr(strtolower($this->locale.'-gb'), 0, 5) . '.js';
             } else {
                 $localeFile = substr(strtolower($this->locale), 0, 5) . '.js';
             }
